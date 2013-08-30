@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title - Same ID</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+    <body>
+        <header>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p class="site-title">@Html.ActionLink("http://msprogrammer.serviciipeweb.ro/", "Index", "Home")</p>
+                </div>
+                <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+        <footer>
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <p>&copy; @DateTime.Now.Year - SameId</p>
+           <p>         
+        Made by Andrei Ignat, <a href="http://msprogrammer.serviciipeweb.ro/" target="_blank">http://msprogrammer.serviciipeweb.ro</a>
+        </p><p>
+        Source code at <a href="https://github.com/ignatandrei/SameId"  target="_blank">https://github.com/ignatandrei/SameId</a>
+        </p><p>
+        View online at <a href="http://SameId.apphb.com" target="_blank">http://SameId.apphb.com</a>
+        </p><p>
+        @*NuGet package at <a href=" https://nuget.org/packages/MVCBrowserHistory" target="_blank"> https://nuget.org/packages/MVCBrowserHistory</a>*@
+        </p>
+                </div>
+            </div>
+        </footer>
+
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
