@@ -1,7 +1,7 @@
 ﻿@{
     Layout = "";
     var users = ViewBag.Users as List<KeyValuePair<string, SameIdAlert.RouteDataItems>>;
-    int count = 0;
+    int count = -1;
     if (users != null)
     {
         count = users.Count;
@@ -81,7 +81,9 @@
                     // Clear text box and reset focus for next comment. 
                     $('#Message').val('').focus();
                 });
-                chat.server.joinGroupPageAndSendMessage(myName, groupName);
+
+                if(groupName.length > 0)
+                    chat.server.joinGroupPageAndSendMessage(myName, groupName);
             });
 
 

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using SameId.Models;
+using SameIdAlert;
+
 
 namespace SameId.Controllers
 {
@@ -43,5 +45,14 @@ namespace SameId.Controllers
         {
             return View(prod);
         }
+
+        [SameIdSkipAttribute]
+        [Authorize()]
+        public ActionResult View(int id)
+        {
+            var prod = Product.GetFromId(id);
+            return View(prod);
+        }
+
     }
 }
