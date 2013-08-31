@@ -10,7 +10,7 @@ using Microsoft.AspNet.SignalR;
 
 namespace SameIdAlert
 {
-   
+    
     public class SameIdFilter : IActionFilter
     {
         private bool MustHaveSameIdAttribute;
