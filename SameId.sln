@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameId", "SameId\SameId.csproj", "{10BB686A-0383-47D5-8DAC-F1ECC885F95C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameIdAlert", "SameIdAlert\SameIdAlert.csproj", "{AAB4B46A-899C-4AC3-B4D9-B6D92706F65E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{10BB686A-0383-47D5-8DAC-F1ECC885F95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BB686A-0383-47D5-8DAC-F1ECC885F95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BB686A-0383-47D5-8DAC-F1ECC885F95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB4B46A-899C-4AC3-B4D9-B6D92706F65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB4B46A-899C-4AC3-B4D9-B6D92706F65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB4B46A-899C-4AC3-B4D9-B6D92706F65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB4B46A-899C-4AC3-B4D9-B6D92706F65E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

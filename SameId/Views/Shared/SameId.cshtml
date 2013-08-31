@@ -6,6 +6,9 @@
     {
         count = users.Count;
     }
+    if (count == -1){ // no viewbag.users that means actionfilter not involved  
+        return;
+    }
 
 }
 
@@ -81,9 +84,7 @@
                     // Clear text box and reset focus for next comment. 
                     $('#Message').val('').focus();
                 });
-
-                if(groupName.length > 0)
-                    chat.server.joinGroupPageAndSendMessage(myName, groupName);
+                chat.server.joinGroupPageAndSendMessage(myName, groupName);
             });
 
 

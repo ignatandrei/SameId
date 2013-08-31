@@ -92,3 +92,5 @@ c:\users\andrei\documents\visual studio 2012\Projects\SameId\SameId\bin\Microsof
 c:\users\andrei\documents\visual studio 2012\Projects\SameId\SameId\bin\Microsoft.AspNet.SignalR.Owin.xml
 c:\users\andrei\documents\visual studio 2012\Projects\SameId\SameId\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
 c:\users\andrei\documents\visual studio 2012\Projects\SameId\SameId\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\andrei\Documents\Visual Studio 2012\Projects\SameId\SameId\bin\SameIdAlert.dll
+C:\Users\andrei\Documents\Visual Studio 2012\Projects\SameId\SameId\bin\SameIdAlert.pdb
