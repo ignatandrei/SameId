@@ -14,7 +14,7 @@ namespace SameIdAlert
             this.ControllerName = rd.Values["controller"].ToString();
             this.AreaName = (rd.Values["area"] ?? "").ToString();
             this.Arguments = string.Join("&", routeValues.Where(item => parameterNames.Contains(item.Key)).Select(item => string.Format("{0}={1}", item.Key, (item.Value == null) ? "" : item.ToString())));
-            this.Arguments = this.Arguments;
+            //this.Arguments = this.Arguments;
         }
         public string AreaName;
         public string ControllerName;

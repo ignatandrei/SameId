@@ -46,7 +46,7 @@ namespace SameId.Controllers
             return View(prod);
         }
 
-        [SameIdSkipAttribute]
+        [SameIdSkip]
         [Authorize()]
         public ActionResult View(int id)
         {
