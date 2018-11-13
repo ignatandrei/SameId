@@ -28,10 +28,10 @@ namespace SameIdAlert
             
 
         }
-        public override Task OnDisconnected()
+        public override async Task OnDisconnected()
         {
-            LeaveGroupPageAndSendMessage(this.Context.User.Identity.Name);
-            return base.OnDisconnected();
+            await LeaveGroupPageAndSendMessage(this.Context.User.Identity.Name);
+            await base.OnDisconnected();
 
         }
         

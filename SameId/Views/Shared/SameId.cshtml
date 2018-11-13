@@ -69,13 +69,13 @@
                 
 
             };
-            chat.client.removeUser = function (name) {
-                
+            chat.on("removeUser", function (name) {
+
                 $("#user_" + name).remove();
                 if ($("#UserList li").size() == 0) {
                     $("#UserViewingThisAction").hide();
                 }
-            }
+            });
             // Start the connection.
             $.connection.hub.start().done(function () {
                 $('#SendMessage').click(function () {

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRDemoSameId", "SignalRDemoSameId\SignalRDemoSameId.csproj", "{74DF8A6E-1539-4D93-AA93-D2C821FA416F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SameIDAlert", "SameIDAlert\SameIDAlert.csproj", "{3DC011F0-7074-40AC-AE5D-2101246CAC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74DF8A6E-1539-4D93-AA93-D2C821FA416F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74DF8A6E-1539-4D93-AA93-D2C821FA416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74DF8A6E-1539-4D93-AA93-D2C821FA416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74DF8A6E-1539-4D93-AA93-D2C821FA416F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC011F0-7074-40AC-AE5D-2101246CAC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC011F0-7074-40AC-AE5D-2101246CAC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC011F0-7074-40AC-AE5D-2101246CAC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC011F0-7074-40AC-AE5D-2101246CAC47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE5926F7-CC2E-4CCB-BF83-CD4A7F11AFFE}
+	EndGlobalSection
+EndGlobal
